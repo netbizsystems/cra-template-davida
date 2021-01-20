@@ -1,0 +1,33 @@
+{
+  "name": "cra-template-davida",
+  "version": "1.0.24",
+  "description": "My personal Create React App template with Redux and Material UI support.",
+  "keywords": [
+    "create-react-app",
+    "react",
+    "template",
+    "redux",
+    "material-ui",
+    "davida"
+  ],
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "author": "davida",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netbizsystems/cra-template-davida"
+  },
+  "bugs": {
+    "url": "https://github.com/netbizsystems/cra-template-davida/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  }
+}
