@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "davida",
+    "apiVersion": "1.0.1",
+    "adminEmail": "davida@xyz.com"
+  },
+  "resources": [
+    { "id": 1, "name": "profile", "href": "/profile", "_links": [{ "rel": "self", "href": "resources/1" }] },
+    { "id": 2, "name": "resources", "href": "/resources", "_links": [{ "rel": "self", "href": "resources/2" }] },
+    { "id": 3, "name": "deserts", "href": "/deserts", "_links": [{ "rel": "self", "href": "resources/3" }] }
+  ],
+  "deserts": [
+    { "id": 1, "name": "Frozen yoghurt", "calories": 159, "fat": 6.0, "carbs": 24, "protein": 4.0, "status": "ACTIVE", 
+      "_links": [
+        { "rel": "self", "href": "deserts/1" },
+        { "rel": "deactivate", "href": "deserts/1?action=DEACTIVATE" }
+      ]
+    },
+    { "id": 2, "name": "Ice cream sandwich", "calories": 237, "fat": 9.0, "carbs": 37, "protein": 4.3, "status": "ACTIVE", 
+      "_links": [
+        { "rel": "self", "href": "deserts/1" },
+        { "rel": "deactivate", "href": "deserts/1?action=DEACTIVATE" }
+      ]
+     },
+    { "id": 3, "name": "Eclair", "calories": 262, "fat": 16.0, "carbs": 24, "protein": 6.0, "status": "NA", 
+      "_links": [
+        { "rel": "self", "href": "deserts/1" },
+        { "rel": "activate", "href": "deserts/1?action=ACTIVATE" }
+      ]
+     },
+    { "id": 4, "name": "Cupcake", "calories": 305, "fat": 3.7, "carbs": 67, "protein": 4.3, "status": "ACTIVE", 
+      "_links": [
+        { "rel": "self", "href": "deserts/1" },
+        { "rel": "deactivate", "href": "deserts/1?action=DEACTIVATE" }
+      ]
+     },
+    { "id": 5, "name": "Gingerbread", "calories": 356, "fat": 16.0, "carbs": 49, "protein": 3.9, "status": "ACTIVE", 
+      "_links": [
+        { "rel": "self", "href": "deserts/1" },
+        { "rel": "deactivate", "href": "deserts/1?action=DEACTIVATE" }
+      ]
+     }
+  ],
+  "drinks": [
+    { "id": 1, "name": "beer", "calories": 159, "fat": 6.0, "carbs": 24, "protein": 4.0,"_links": [{"rel": "self", "href": "drinks/1"}] },
+    { "id": 2, "name": "wine", "calories": 237, "fat": 9.0, "carbs": 37, "protein": 4.3,"_links": [{"rel": "self", "href": "drinks/2"}] },
+    { "id": 3, "name": "scotch", "calories": 262, "fat": 16.0, "carbs": 24, "protein": 6.0,"_links": [{"rel": "self", "href": "drinks/3"}] }
+  ]
+}
